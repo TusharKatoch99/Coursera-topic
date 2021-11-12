@@ -2,19 +2,35 @@
 <html>
 <head>
   <meta charset="utf-8">
-    <title>Displaying Images</title>
+    <title>Element with Class Selector</title>
+    <style>
+      .highlight
+      {
+        background-color: yellow;
+        text-align: center;
+        color: purple;
+      }
+p.highlight{ color: blue;
+        font-size: 36px;
+        text-align: center;
+}
+
+
+    .highlight.mainpoint { color: red;
+        font-size: 36px;
+        text-align: center;
+      }
+    </style>
 </head>
 <body>
-<h1> Don't be afraid to be &lt; then a 100% success:</h1>
-<p>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY_xFEF1SSB72psGGmbyzLWVNtqYIHXNgThktAwk3kbgsVjMu1g1dvYISzqqH4gPVY34E&usqp=CAU" width="420" height="400" alt="Picture with quote">
-  &quot; 
-
-  It is not the critic Diwali is one of the most important festivals in Hindu culture. It is one of the most important holidays in the Hindu calendar. Diwali gets its name from the Sanskrit word ‘Deepavali’ that roughly translates to ‘a row of lights.’ It is a great time to have fun with your family and friends. People decorate their houses with oil lamps and fairy lights at night. They cook delicious food and share them with their neighbors. It is a festival of lights; every street is lit up with beautiful lights. It spreads cheer and joy among people and makes them fall in love with their culture.Diwali is one of the most important festivals in Hindu culture. It is one of the most important holidays in the Hindu calendar. Diwali gets its name from the Sanskrit word ‘Deepavali’ that roughly translates to ‘a row of lights.’ It is a great time to have fun with your family and friends. People decorate their houses with oil lamps and fairy lights at night. They cook delicious food and share them with their neighbors. It is a festival of lights; every street is lit up with beautiful lights. It spreads cheer and joy among people and makes them fall in love with their culture.&quot;
-</p>
-<p>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY_xFEF1SSB72psGGmbyzLWVNtqYIHXNgThktAwk3kbgsVjMu1g1dvYISzqqH4gPVY34E&usqp=CAU" width="640" height="480">
-</p>
-<p>Theodore Roosevelt 1910 &copy; Copyright</p>
+<h1 class="highlight">Elements with Class Selector</h1>
+<p style="color: darkblue;
+font-size: 20px; text-align: center;">
+  CSS works byassociating rules with HTML Elements. These rules govern how the content of spacified elements should be displpayed. A CSS Rule contains two parts a selectoor and a declaration</p>
+  <p class="highlight">This is P with CLASS="highlight"
+    
+  </p>
+  <div class="mainpoint highlight">This is the main point of the entire article.
+  </div>
 </body>
 </html>     
