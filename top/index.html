@@ -1,19 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>HTML is structural only</title>
+  <meta charset="utf-8">
+  <title>index</title>
+  <style>
+  *{
+    box-sizing: border-box;
+
+  }
+
+  body{
+    margin: 20px;
+    padding: 2px;
+    
+  }
+  
+  #content
+  {
+  background-color: lightgreen;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+ }
+ #box
+ {
+  background-color: red;
+  padding : 10px;
+  border: 3px solid black; 
+  margin: 40px;
+  width: 300px;
+ }
+  a:hover
+ {
+  background-color: lightgreen;
+  color: black;
+  border: 1px solid black;
+  text-decoration: none; 
+ }
+ a:active
+ {
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  text-decoration: none; 
+
+ }
+
+</style>
 </head>
 <body>
 <h1>
 HTML is structural only</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adiposicing elit.
+<div id="box">
+<p id="content">Lorem ipsum dolor sit amet, consectetur adiposicing elit.
+  
   Recusandae temporibus esse suscipit nisi ad.</p>
+     </div>
   <p>Lorem ipsum dolor sit amet, consectetur adiposicing elit.
   Ad, doloribus eso perspiciatis.</p>
+  
   <footer>
     <hr>
     <p>Tech Support : yeah.right@server-is-down.com</p>
-    <a href="third.html"title="Linking Internal" style="color: green;">FOR GOING BACK PRESS HERE</a>
+    <a href="third.html"title="Responsive Layout">NEXT PAGE </a>
+
+
   </footer>
 </body>
 </html>     
